@@ -1,0 +1,75 @@
+a {
+    text-decoration: none;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+p {
+    letter-spacing: 2px;
+}
+
+
+.local {
+    position: relative;
+    top: 65px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin: 25px;
+    height: 10vh;
+}
+
+.bi {
+    color: black;
+    cursor: pointer;
+}
+
+.bi-envelope-exclamation:hover{
+    color: rgb(255, 0, 140);
+}
+
+.bi-whatsapp:hover{
+    color: rgb(0, 250, 167);
+}
+
+.bi-github:hover {
+    color: rgb(75, 75, 75);
+}
+
+.bi-linkedin:hover{
+    color: blue;
+}
+
+i {
+    position: relative;
+    top: 20px;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 10px;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
